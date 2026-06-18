@@ -1,0 +1,7 @@
+#print 1 to N using functional Recurssion
+def func(N):
+    if N == 1:
+        return 1
+    return N+func(N-1)
+
+print(func(4))
