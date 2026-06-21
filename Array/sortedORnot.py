@@ -1,0 +1,10 @@
+arr = [1,2,3,9,5,6,7]
+def checkSorted(arr):
+    n = len(arr)
+
+    for i in range(0,n-1):
+            if arr[i] > arr[i+1]:
+                return False
+    return True
+
+print(checkSorted(arr))
